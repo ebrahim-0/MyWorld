@@ -1475,6 +1475,7 @@ ul {
 }
 
 .discount .form form input {
+    width: 100%;
     border: 0;
     padding: 15px;
     margin-bottom: 25px;
@@ -1485,6 +1486,7 @@ ul {
 
 .discount .form form textarea {
     resize: none;
+    width: 100%;
     border: 0;
     padding: 15px;
     height: 200px;
@@ -1499,7 +1501,8 @@ ul {
     outline: 0;
 }
 
-.discount .form form input[type="submit"] {
+.discount .form form .button {
+    width: 109%;
     background-color: var(--main-color);
     border: 0;
     color: white;
@@ -1509,7 +1512,7 @@ ul {
     cursor: pointer;
 }
 
-.discount .form form button:hover {
+.discount .form form .button:hover {
     background-color: var(--main-color-alt);
 }
 
